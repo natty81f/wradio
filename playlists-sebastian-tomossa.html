@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>W RADIO - Sebastian Tomossa</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link href='http://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.effects.core.min.js"></script>
+	<script type="text/javascript" src="js/jquery.effects.slide.min.js"></script>
+	<script type="text/javascript" src="js/jquery.effects.blind.min.js"></script>
+	<script type="text/javascript" src="js/jquery.superbgimage.min.js"></script>
+
+	<script type="text/javascript" src="js/sliderbutton.js"></script>
+
+<script type="text/javascript">
+$(function() {
+
+	// Options for SuperBGImage
+	$.fn.superbgimage.options = {
+		transition: 0, // 0-none, 1-fade, 2 slide-down, 3-slide left, slide top-4, 5-slide right, vertical blind, horizontal 6-7-blind, 90-slide right / left , 91-slide top / down
+		slideshow: 0, // 0-none, 1-autostart slideshow
+		slide_interval: 8000, // interval for the slideshow
+		randomimage: 0, // 0-none, 1-random image
+		speed: 'slow' // animation speed
+	};
+
+	// initialize SuperBGImage
+	$('#thumbs').superbgimage().hide();
+
+});
+</script>
+</head>
+
+<body>
+
+	<!--Beginning of fullscreen slideshow-->
+	<fieldset id="thumbs">
+		<a href="https://dl.dropboxusercontent.com/u/43607039/wradio/slideshow/bg-sebastian.jpg" title="graphic by Natalia Fierro<br />http://www.nataliafierrofoto.com">1</a>
+		<br style="clear:both"/>
+	</fieldset>
+
+	<!--Beginnig of header-->
+	<div id="header">
+		<div id="logo">
+			<a href="index.html"><img src="images/weirdchild-logo.png" alt="weirdchild logo"></a>
+		</div>
+
+		<nav id="info">
+			<ul>
+				<li><a href="playlists.html"><h2>ALL PLAYLISTS</h2></a></li>
+				<li><a href="freebies.html"><h2>FREEBIES</h2></a></li>
+				<li><a href="about.html"><h2>ABOUT</h2></a></li>
+				<li><a href="contact.html"><h2>CONTACT</h2></a></li>
+				<li><a href="shop.html"><h2>SHOP</h2></a></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!--End of header-->
+
+	<div class="wrapper">
+		<div id="social">
+			<ul>
+				<li class="twitter"><a href="#">Twitter</a></li>
+				<li class="tumblr"><a href="#">Tumblr</a></li>
+				<li class="rss"><a href="#">rss</a></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+
+		<div class="container">
+
+			<div id="playlistinfo-container">
+				<div id="profile-pic"><img src="images/profile-05-200x200.jpg" alt="sebastian tomossa profile pic"></div>
+				<div id="profile-description">
+					<h1>/ / /  Sebastian Tomossa  / / /</h1>
+					<h3>Night Drive</h3>
+					<p>"Night Drive delivers atmospheric, dub, ambient, chilled-out tunes and other space-travel music"</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div id="music-container">
+				<div class="mix-boxes">
+					<iframe width="100%" height="110" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F22005735&amp;color=000000&amp;auto_play=false&amp;show_artwork=false"></iframe>
+				</div>
+				<viv class="mix-boxes">
+					<iframe width="100%" height="110" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F59673802&amp;color=000000&amp;auto_play=false&amp;show_artwork=false"></iframe>
+				</viv>
+			</div>
+
+		</div>
+
+	</div>
+	<!--End of Wrapper-->
+
+
+	<div id="feedback">
+		<a href="contact.html">FEEDBACK</a>
+	</div>
+
+</body>
+</html>

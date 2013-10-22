@@ -1,0 +1,114 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>W Radio</title>
+
+  <link rel="stylesheet" href="css/style.css"  type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+
+  <link href='http://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+
+  <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.effects.core.min.js"></script>
+  <script type="text/javascript" src="js/jquery.effects.slide.min.js"></script>
+  <script type="text/javascript" src="js/jquery.effects.blind.min.js"></script>
+  <script type="text/javascript" src="js/jquery.superbgimage.min.js"></script>
+  <script type="text/javascript" src="js/sliderbutton.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+
+    // Options
+    $.fn.superbgimage.options = {
+      transition: 5, // 0-none, 1-fade, 2 slide-down, 3-slide left, slide top-4, 5-slide right, vertical blind, horizontal 6-7-blind, 90-slide right / left , 91-slide top / down
+      slideshow: 1, // 0-none, 1-autostart slideshow
+      slide_interval: 8000, // interval for the slideshow
+      randomimage: 0, // 0-none, 1-random image
+      speed: 'slow' // animation speed
+    };
+
+    // initialize
+    $('#thumbs').superbgimage().hide();
+
+  });
+  </script>
+</head>
+
+<body>
+    <!--Beginning of fullscreen slideshow-->
+  <fieldset id="thumbs">
+    <a href="https://dl.dropboxusercontent.com/u/43607039/wradio/slideshow/ss01.jpg" title="image by Daniel Jost<br />http://www.flickr.com/people/photos-de-danyel/">1</a>
+    <a href="https://dl.dropboxusercontent.com/u/43607039/wradio/slideshow/ss02.jpg" title="image by Mikey Wally<br />http://www.flickr.com/people/mikeywally/">2</a>
+    <a href="https://dl.dropboxusercontent.com/u/43607039/wradio/slideshow/ss03.jpg" title="image by Montecruz Foto<br />http://www.flickr.com/people/libertinus/">3</a>
+    <a href="https://dl.dropboxusercontent.com/u/43607039/wradio/slideshow/ss04.jpg" title="image by Arthur Caranta<br />http://www.flickr.com/people/arthur-caranta/">4</a>
+    <a href="https://dl.dropboxusercontent.com/u/43607039/wradio/slideshow/ss05.jpg" title="image by Mikey Wally<br />http://www.flickr.com/people/mikeywally/">5</a>
+    <a href="https://dl.dropboxusercontent.com/u/43607039/wradio/slideshow/ss06.jpg" title="image by Montecruz Foto<br />http://www.flickr.com/people/libertinus/">6</a>
+    <br style="clear:both"/>
+  </fieldset>
+
+  <!--Beginnig of header-->
+  <div id="header">
+    <div id="logo">
+      <a href="index.html"><img src="images/weirdchild-logo.png" alt="weirdchild logo"></a>
+    </div>
+
+    <nav id="info">
+      <ul>
+        <li><a href="playlists.html"><h2>ALL PLAYLISTS</h2></a></li>
+        <li><a href="freebies.html"><h2>FREEBIES</h2></a></li>
+        <li><a href="about.html"><h2>ABOUT</h2></a></li>
+        <li><a href="contact.html"><h2>CONTACT</h2></a></li>
+        <li><a href="shop.html"><h2>SHOP</h2></a></li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!--End of header-->
+
+  <div class="wrapper">
+    <div id="social">
+      <ul>
+        <li class="twitter"><a href="#">Twitter</a></li>
+        <li class="tumblr"><a href="#">Tumblr</a></li>
+        <li class="rss"><a href="#">rss</a></li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+
+    <div class="container">
+
+      <div id="banner-leftside">
+        <img src="images/banner-w.png" alt="W Radio banner">
+      </div>
+
+      <div id="latest-playlist">
+        <div class="latest">latest</div>
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F94249817&amp;color=000000&amp;auto_play=false&amp;show_artwork=false"></iframe>
+      </div>
+
+      <div id="gallery-spotlight">
+        <div class="spotlight">spotlight</div>
+
+          <ul id="slider">
+            <li class="featured-pic"><a href="playlists-john-laurente.html"><img src="images/W-play01.jpg" alt="play 1"><h5>Refresh MIX</h5></a></li>
+            <li class="featured-pic"><a href="playlists-mistevens.html"><img src="images/w-play02-nu-disco.jpg" alt="play 2"><h5>Long and Extended</h5></a></li>
+            <li class="featured-pic"><a href="playlists-alysek.html"><img src="images/W-play03.jpg" alt="play 3"><h5>Shuffle a Dream</h5></a></li>
+            <li class="featured-pic"><a href="playlists-w.html"><img src="images/W-play04.jpg" alt="play 1"><h5>Under the Influence</h5></a></li>
+            <li class="featured-pic"><a href="#"><img src="images/W-play05.jpg" alt="play 2"><h5>Moon Sounds</h5></a></li>
+            <li class="featured-pic"><a href="#"><img src="images/W-play06.jpg" alt="play 3"><h5>Camouflage MIX</h5></a></li>
+          </ul>
+          <div class="arrow">arrow</div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+  </div>
+  <!--End of wrapper-->
+
+  <div id="feedback">
+    <a href="contact.html">FEEDBACK</a>
+  </div>
+
+</body>
+</html>
