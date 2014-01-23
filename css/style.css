@@ -90,36 +90,36 @@ ul li a {
  	text-indent: 100%;
 	overflow: hidden; }
 
- .spotlight {
- 	background: url(../images/buttons.png);
- 	background-position: 0 -38px;
- 	width: 180px;
- 	height: 35px;
- 	text-indent: 100%;
-	overflow: hidden; }
+.spotlight {
+	background: url(../images/buttons.png);
+	background-position: 0 -38px;
+	width: 180px;
+	height: 35px;
+	text-indent: 100%;
+overflow: hidden; }
 
- .arrow {
- 	background: url(../images/buttons.png);
- 	background-position: 0 -76px;
- 	width: 43px;
- 	height: 70px;
- 	position: absolute;
- 	margin-left: 557px;
- 	margin-top: 80px;
- 	text-indent: 100%;
-	overflow: hidden; }
+.arrow {
+	background: url(../images/buttons.png);
+	background-position: 0 -76px;
+	width: 43px;
+	height: 70px;
+	position: absolute;
+	margin-left: 557px;
+	margin-top: 80px;
+	text-indent: 100%;
+overflow: hidden; }
 
- .arrow:hover {
- 	background: url(../images/buttons.png);
- 	background-position: 0 -149px;
- 	width: 43px;
- 	height: 70px;
- 	position: absolute;
- 	margin-left: 557px;
- 	margin-top: 80px; }
+.arrow:hover {
+	background: url(../images/buttons.png);
+	background-position: 0 -149px;
+	width: 43px;
+	height: 70px;
+	position: absolute;
+	margin-left: 557px;
+	margin-top: 80px; }
 
- #social ul li {
- 	float: right; }
+#social ul li {
+	float: right; }
 
 #social ul li a {
 	display: block;
